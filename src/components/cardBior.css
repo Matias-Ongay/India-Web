@@ -1,0 +1,20 @@
+.sub{
+    
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-left:10px ;
+    
+}
+.sub1{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.piedrita{
+    
+    width: 150px;
+    height: 250px;
+}
+.mini-conteiner{
+
+    max-width: 60%;
+}
