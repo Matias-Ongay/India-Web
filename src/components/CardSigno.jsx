@@ -15,12 +15,22 @@ export function CardSigno(fecha) {
       <div className="conteiner-img2">
         <img className="big" src={img2} alt="" />
       </div>
+
+      <div className="description">
+        <h2>Tambien es compatible con tu signo la :</h2>
         
 
-      
-      
+      </div>
+      <div className="conteiner-img2">
+        <img className="big" src={img2} alt="" />
+      </div>
+
+
+
       
     </div>
+    
+    
 
 
   );

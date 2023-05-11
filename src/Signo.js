@@ -36,76 +36,102 @@ export function Signo() {
   
   export function getPiedra(signo) {
     let piedra = '';
+    let piedraa='';
     let img1 = '';
     let img2 = '';
+    let img3 = '';
   
     switch (signo) {
       case 'Aries':
-        piedra = 'Cornalina';
+        piedra = 'Amatista';
+        piedraa='Agua-marina';
         img1 = '../images/aries.png';
-        img2 = '../images/signo1.jpg';
+        img2 = '../images/amatista.jpg';
+        img3 = '../images/aguamarina.jpg';
         break;
       case 'Tauro':
         piedra = 'Cuarzo rosa';
+        piedraa='Agua-marina';
         img1 = '../images/tauro.png';
-        img2 = '../images/signo1.jpg';
+        img2 = '../images/cuarzo-rosa.jpg';
+        img3 = '../images/aguamarina.jpg';
         break;
       case 'Géminis':
         piedra = 'Ágata';
+        piedraa='Turmalina';
         img1 = '../images/geminis.png';
-        img2 = '../images/signo1.jpg';
+        img2 = '../images/agata.jpg.jpg';
+        img3 = '../images/turmalina.jpg';
         break;
       case 'Cáncer':
-        piedra = 'Cuarzo lechoso';
+        piedra = 'Ambar';
+        piedraa='Piedra de luna';
         img1 = '../images/cancer.png';
-        img2 = '../images/signo1.jpg';
+        img2 = '../images/Ambar.jpg';
+        img3 = '../images/piedra-luna.jpg';
         break;
       case 'Leo':
         piedra = 'Ojo de tigre';
+        piedraa = 'Cuarzo'
         img1 = '../images/leo.png';
-        img2 = '../images/signo1.jpg';
+        img2 = '../images/ojo-de-tigre.jpg';
+        img3 = '../images/cuarzo.jpg';
         break;
       case 'Virgo':
-        piedra = 'Jaspe';
+        piedra = 'Rodonita';
+        piedraa = 'Obsidiana';
         img1 = '../images/virgo.png';
-        img2 = '../images/signo1.jpg';
+        img2 = '../images/rodonita.jpg';
+        img3 = '../images/obsidiana.jpg';
         break;
       case 'Libra':
-        piedra = 'Citrino';
+        piedra = 'Jade';
+        piedraa = 'Piedra de Luna';
         img1 = '../images/libra.png';
-        img2 = '../images/signo1.jpg';
+        img2 = '../images/jade.jpg';
+        img3 = '../images/piedra-luna.jpg';
         break;
       case 'Escorpio':
-        piedra = 'Granate';
+        piedra = 'Obsidiana';
+        piedraa = 'Piedra de luna';
         img1 = '../images/escorpio.png';
-        img2 = '../images/signo1.jpg';
+        img2 = '../images/obsidiana.jpg';
+        img3 = '../images/piedra-luna.jpg';
         break;
       case 'Sagitario':
-        piedra = 'Turmalina';
+        piedra = 'Amatista';
+        piedraa = 'Obsidiana';
         img1 = '../images/sagitario.png';
-        img2 = '../images/signo1.jpg';
+        img2 = '../images/amatista.jpg';
+        img3 = '../images/obsidiana.jpg';
         break;
       case 'Capricornio':
-        piedra = 'Ónix';
+        piedra = 'Cuarzo';
+        piedraa = 'Fluorita';
         img1 = '../images/capricornio.png';
-        img2 = '../images/signo1.jpg';
+        img2 = '../images/cuarzo.jpg';
+        img3 = '../images/fluorita.jpg';
         break;
       case 'Acuario':
-        piedra = 'Amatista';
+        piedra = 'Fluorita';
+        piedraa = 'Ambar';
         img1 = '../images/acuario.png';
-        img2 = '../images/signo1.jpg';
+        img2 = '../images/fluorita.jpg';
+        img3 = '../images/ambar.jpg';
         break;
       case 'Piscis':
         piedra = 'Aguamarina';
+        piedraa = 'Agata Azul';
         img1 = '../images/piscis.png';
-        img2 = '../images/signo1.jpg';
+        img2 = '../images/aguamarina.jpg';
+        img3 = '../images/agata-azul.jpg';
         break;
       default:
         piedra = 'No se encontró una piedra correspondiente';
         break;
     }
   
-    return { piedra, img1, img2 };
+    return { piedra,piedraa, img1, img2,img3 };
   }
 
   export function biorritmo() {
